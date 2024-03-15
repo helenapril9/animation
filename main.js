@@ -1,0 +1,1 @@
+(()=>{"use strict";new class{constructor(t){this.container=t,this.btn=this.container.querySelector(".collapse")}init(){this.btn.addEventListener("click",(t=>this.showContent(t)))}showContent(t){t.preventDefault(),this.container.querySelector(".collapse__content-wrapper").classList.toggle("click")}}(document.querySelector(".container")).init()})();
